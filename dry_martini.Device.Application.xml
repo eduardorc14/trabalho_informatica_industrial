@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.11.10" runtimeid="3.5.11.40" libversion="3.5.11.0" compiler="3.5.11.40" lmm="3.5.11.40" profile="CODESYS V3.5 SP11 Patch 4" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="dry_martini" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+    <TypeSimple name="T_WSTRING" size="162" swapsize="2" typeclass="WString" iecname="WSTRING" />
+    <TypeSimple name="T_WSTRING_INT_34_" size="70" swapsize="2" typeclass="WString" iecname="WSTRING(INT#34)" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="BA101" type="T_BOOL" access="ReadWrite" />
+        <Node name="CTU_CV" type="T_INT" access="ReadWrite" />
+        <Node name="EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_JR01" type="T_WSTRING" access="ReadWrite" />
+        <Node name="FALHA_JR01_BIT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_RM01" type="T_WSTRING" access="ReadWrite" />
+        <Node name="FALHA_RM01_BIT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_TP01" type="T_WSTRING_INT_34_" access="ReadWrite" />
+        <Node name="FALHA_TP01_BIT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FQ101_GIN" type="T_REAL" access="ReadWrite" />
+        <Node name="FQ102_VER" type="T_REAL" access="ReadWrite" />
+        <Node name="FQ103_DRY" type="T_REAL" access="ReadWrite" />
+        <Node name="FQ201_ENV" type="T_REAL" access="ReadWrite" />
+        <Node name="FV101" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV102" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV103" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV104" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV105" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV106" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV107" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV201" type="T_BOOL" access="ReadWrite" />
+        <Node name="JR_VOL" type="T_REAL" access="ReadWrite" />
+        <Node name="LSH101_RM01" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSH102_RM01_JA" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSH201_TP01" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSHH201_TP01" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSL101_RM01" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSL102_RM01_JA" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSL201_TP01" type="T_BOOL" access="ReadWrite" />
+        <Node name="LT101_RM01" type="T_REAL" access="ReadWrite" />
+        <Node name="LT201_TP01" type="T_REAL" access="ReadWrite" />
+        <Node name="M101_RM01" type="T_BOOL" access="ReadWrite" />
+        <Node name="M201_TR01" type="T_BOOL" access="ReadWrite" />
+        <Node name="MODO_AUTO" type="T_BOOL" access="ReadWrite" />
+        <Node name="MODO_MAN" type="T_BOOL" access="ReadWrite" />
+        <Node name="RM01_VOLUME" type="T_REAL" access="ReadWrite" />
+        <Node name="SY101_PWM_VEL_RM01" type="T_REAL" access="ReadWrite" />
+        <Node name="TP01_VOLUME" type="T_REAL" access="ReadWrite" />
+        <Node name="TSL101_RM01" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZY201_TR01" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZY202_TR01" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
